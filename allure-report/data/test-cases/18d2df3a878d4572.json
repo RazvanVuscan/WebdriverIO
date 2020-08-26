@@ -1,0 +1,58 @@
+{
+  "uid" : "18d2df3a878d4572",
+  "name" : "Given The user opens the test automation practice web page",
+  "fullName" : "Third test: This is a third test.Given The user opens the test automation practice web page",
+  "historyId" : "1737a4bcb0904edc51fc063cf089b5ed",
+  "time" : {
+    "start" : 1597136008913,
+    "stop" : 1597136021265,
+    "duration" : 12352
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Third test: This is a third test"
+  }, {
+    "name" : "testClass",
+    "value" : "Third test: This is a third test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given The user opens the test automation practice web page"
+  }, {
+    "name" : "package",
+    "value" : "Third test: This is a third test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18d2df3a878d4572.json",
+  "parameterValues" : [ "chrome" ]
+}

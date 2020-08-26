@@ -1,0 +1,93 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597995332173' stop='1597995358175'>
+    <name>Third test: This is a third test</name>
+    <title>Third test: This is a third test</title>
+    <test-cases>
+        <test-case start='1597995332175' status='passed' stop='1597995332184'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597995332185' status='passed' stop='1597995355340'>
+            <name>Given The user opens the test automation practice web page</name>
+            <title>Given The user opens the test automation practice web page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597995355341' status='passed' stop='1597995355575'>
+            <name>Then The user checks that the page title is "Practice Page"</name>
+            <title>Then The user checks that the page title is "Practice Page"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597995355575' status='broken' stop='1597995358173'>
+            <name>When The user searches for "United" in the autosuggest field</name>
+            <title>When The user searches for "United" in the autosuggest field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='1faa5f51-b050-45dc-ab2c-41afff131e8f-attachment.png' type='image/png' size='145204'/>
+            </attachments>
+            <failure>
+                <message>element ("#ui-id-1") still not displayed after 2000ms</message>
+                <stack-trace>Error: element ("#ui-id-1") still not displayed after 2000ms
+                    at C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\node_modules\webdriverio\build\commands\browser\waitUntil.js:34:15
+                    at async Element.wrapCommandFn (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\node_modules\@wdio\utils\build\shim.js:74:23)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\node_modules\webdriverio\build\middlewares.js:21:24)
+                    at async Element.wrapCommandFn (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\node_modules\@wdio\utils\build\shim.js:74:23)
+                    at async Element.wrapCommandFn (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\node_modules\@wdio\utils\build\shim.js:74:23)
+                    at async Element.elementErrorHandlerCallbackFn (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\node_modules\webdriverio\build\middlewares.js:21:24)
+                    at async Element.wrapCommandFn (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\node_modules\@wdio\utils\build\shim.js:74:23)
+                    at async World.&lt;anonymous> (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\step-definitions\practicePageSteps.js:35:5)
+                    at async World.executeAsync (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\node_modules\@wdio\utils\build\shim.js:123:12)
+                    at async World.testFrameworkFnWrapper (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:57:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597995358174' status='passed' stop='1597995358175'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

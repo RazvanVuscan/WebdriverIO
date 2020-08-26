@@ -1,0 +1,58 @@
+{
+  "uid" : "32a15e70271b77ba",
+  "name" : "When The user searches for \"United\" in the autosuggest field",
+  "fullName" : "Third test: This is a third test.When The user searches for \"United\" in the autosuggest field",
+  "historyId" : "85278a6ad1b61542df7a37e1961b16c4",
+  "time" : {
+    "start" : 1597136021808,
+    "stop" : 1597136024013,
+    "duration" : 2205
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Third test: This is a third test"
+  }, {
+    "name" : "testClass",
+    "value" : "Third test: This is a third test"
+  }, {
+    "name" : "testMethod",
+    "value" : "When The user searches for \"United\" in the autosuggest field"
+  }, {
+    "name" : "package",
+    "value" : "Third test: This is a third test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "32a15e70271b77ba.json",
+  "parameterValues" : [ "chrome" ]
+}

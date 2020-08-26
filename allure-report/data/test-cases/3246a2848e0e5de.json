@@ -1,0 +1,58 @@
+{
+  "uid" : "3246a2848e0e5de",
+  "name" : "When The user clicks the hide button",
+  "fullName" : "First test: This is a first test.When The user clicks the hide button",
+  "historyId" : "72a58cc2dbcef23a7bbdb4d2745c86f8",
+  "time" : {
+    "start" : 1597136022818,
+    "stop" : 1597136022978,
+    "duration" : 160
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "First test: This is a first test"
+  }, {
+    "name" : "testClass",
+    "value" : "First test: This is a first test"
+  }, {
+    "name" : "testMethod",
+    "value" : "When The user clicks the hide button"
+  }, {
+    "name" : "package",
+    "value" : "First test: This is a first test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3246a2848e0e5de.json",
+  "parameterValues" : [ "chrome" ]
+}

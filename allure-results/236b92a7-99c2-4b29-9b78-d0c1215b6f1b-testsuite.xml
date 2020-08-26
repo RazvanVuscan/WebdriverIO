@@ -1,0 +1,97 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1597995402738' stop='1597995426009'>
+    <name>Third test: This is a third test</name>
+    <title>Third test: This is a third test</title>
+    <test-cases>
+        <test-case start='1597995402739' status='passed' stop='1597995402742'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597995402743' status='broken' stop='1597995426006'>
+            <name>Given The user opens the test automation practice web page</name>
+            <title>Given The user opens the test automation practice web page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps/>
+            <attachments>
+                <attachment title='Screenshot' source='0b345ef7-c0fa-46d9-ae72-5bec42aeddce-attachment.png' type='image/png' size='23232'/>
+            </attachments>
+            <failure>
+                <message>net::ERR_CONNECTION_TIMED_OUT at https://rahulshettyacademy.com/AutomationPractice/</message>
+                <stack-trace>net::ERR_CONNECTION_TIMED_OUT at https://rahulshettyacademy.com/AutomationPractice/
+                Error: net::ERR_CONNECTION_TIMED_OUT at https://rahulshettyacademy.com/AutomationPractice/
+                    at navigate (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\node_modules\puppeteer-core\lib\cjs\puppeteer\common\FrameManager.js:113:23)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at async FrameManager.navigateFrame (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\node_modules\puppeteer-core\lib\cjs\puppeteer\common\FrameManager.js:88:21)
+                    at async Frame.goto (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\node_modules\puppeteer-core\lib\cjs\puppeteer\common\FrameManager.js:405:16)
+                    at async Page.goto (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\node_modules\puppeteer-core\lib\cjs\puppeteer\common\Page.js:826:16)
+                    at async DevToolsDriver.navigateTo (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\node_modules\devtools\build\commands\navigateTo.js:13:3)
+                    at async Browser.wrappedCommand (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\node_modules\devtools\build\devtoolsdriver.js:92:18)
+                    at async Browser.wrapCommandFn (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\node_modules\@wdio\utils\build\shim.js:74:23)
+                    at async Browser.wrapCommandFn (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\node_modules\@wdio\utils\build\shim.js:74:23)
+                    at async Object.toPage (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\support\actions\navigate.js:4:5)
+                    at async World.&lt;anonymous> (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\step-definitions\practicePageSteps.js:9:3)
+                    at async World.executeAsync (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\node_modules\@wdio\utils\build\shim.js:123:12)
+                    at async World.testFrameworkFnWrapper (C:\Users\razvan.vuscan\WebstormProjects\WebdriverIO-Project\node_modules\@wdio\utils\build\test-framework\testFnWrapper.js:57:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1597995426007' status='pending' stop='1597995426007'>
+            <name>Then The user checks that the page title is "Practice Page"</name>
+            <title>Then The user checks that the page title is "Practice Page"</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597995426007' status='pending' stop='1597995426007'>
+            <name>When The user searches for "United" in the autosuggest field</name>
+            <title>When The user searches for "United" in the autosuggest field</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1597995426008' status='passed' stop='1597995426008'>
+            <name>Hook</name>
+            <title>Hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='Chrome-10.0.18363'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

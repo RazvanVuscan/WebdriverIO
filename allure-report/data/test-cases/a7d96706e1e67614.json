@@ -1,0 +1,58 @@
+{
+  "uid" : "a7d96706e1e67614",
+  "name" : "Given The user opens the test automation practice web page",
+  "fullName" : "Second test: This is a second test.Given The user opens the test automation practice web page",
+  "historyId" : "da04853c38bd0e173686882f41ce65a8",
+  "time" : {
+    "start" : 1597136008904,
+    "stop" : 1597136021941,
+    "duration" : 13037
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Second test: This is a second test"
+  }, {
+    "name" : "testClass",
+    "value" : "Second test: This is a second test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given The user opens the test automation practice web page"
+  }, {
+    "name" : "package",
+    "value" : "Second test: This is a second test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a7d96706e1e67614.json",
+  "parameterValues" : [ "chrome" ]
+}

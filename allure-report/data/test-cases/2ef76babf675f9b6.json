@@ -1,0 +1,58 @@
+{
+  "uid" : "2ef76babf675f9b6",
+  "name" : "Then The user checks if the display box is \"hidden\"",
+  "fullName" : "First test: This is a first test.Then The user checks if the display box is \"hidden\"",
+  "historyId" : "1693b35d6e5bf82e2e08f2e4511610a4",
+  "time" : {
+    "start" : 1597136022980,
+    "stop" : 1597136024013,
+    "duration" : 1033
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "First test: This is a first test"
+  }, {
+    "name" : "testClass",
+    "value" : "First test: This is a first test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then The user checks if the display box is \"hidden\""
+  }, {
+    "name" : "package",
+    "value" : "First test: This is a first test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2ef76babf675f9b6.json",
+  "parameterValues" : [ "chrome" ]
+}

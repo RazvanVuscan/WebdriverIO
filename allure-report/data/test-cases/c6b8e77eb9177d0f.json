@@ -1,0 +1,58 @@
+{
+  "uid" : "c6b8e77eb9177d0f",
+  "name" : "When The user selects the \"option3\" option in the dropdown",
+  "fullName" : "Second test: This is a second test.When The user selects the \"option3\" option in the dropdown",
+  "historyId" : "97877892268285ecd56dc6cba99448f0",
+  "time" : {
+    "start" : 1597136021969,
+    "stop" : 1597136022235,
+    "duration" : 266
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Second test: This is a second test"
+  }, {
+    "name" : "testClass",
+    "value" : "Second test: This is a second test"
+  }, {
+    "name" : "testMethod",
+    "value" : "When The user selects the \"option3\" option in the dropdown"
+  }, {
+    "name" : "package",
+    "value" : "Second test: This is a second test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "c6b8e77eb9177d0f.json",
+  "parameterValues" : [ "chrome" ]
+}

@@ -1,0 +1,58 @@
+{
+  "uid" : "f12f30a8ba198a92",
+  "name" : "Then The user checks that the page title is \"Practice Page\"",
+  "fullName" : "Third test: This is a third test.Then The user checks that the page title is \"Practice Page\"",
+  "historyId" : "d27f6cfda9eb98c195e0d8571d963cd9",
+  "time" : {
+    "start" : 1597136021265,
+    "stop" : 1597136021808,
+    "duration" : 543
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Third test: This is a third test"
+  }, {
+    "name" : "testClass",
+    "value" : "Third test: This is a third test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Then The user checks that the page title is \"Practice Page\""
+  }, {
+    "name" : "package",
+    "value" : "Third test: This is a third test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f12f30a8ba198a92.json",
+  "parameterValues" : [ "chrome" ]
+}

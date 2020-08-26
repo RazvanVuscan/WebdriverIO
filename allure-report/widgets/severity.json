@@ -1,0 +1,131 @@
+[ {
+  "uid" : "f12f30a8ba198a92",
+  "name" : "Then The user checks that the page title is \"Practice Page\"",
+  "time" : {
+    "start" : 1597136021265,
+    "stop" : 1597136021808,
+    "duration" : 543
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "32a15e70271b77ba",
+  "name" : "When The user searches for \"United\" in the autosuggest field",
+  "time" : {
+    "start" : 1597136021808,
+    "stop" : 1597136024013,
+    "duration" : 2205
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "a7d96706e1e67614",
+  "name" : "Given The user opens the test automation practice web page",
+  "time" : {
+    "start" : 1597136008904,
+    "stop" : 1597136021941,
+    "duration" : 13037
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "72584feecbcb2ef9",
+  "name" : "Then The user checks that the page title is \"Practice Page\"",
+  "time" : {
+    "start" : 1597136021941,
+    "stop" : 1597136021969,
+    "duration" : 28
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "53dd96ade36474b2",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1597136024013,
+    "stop" : 1597136024014,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "18d2df3a878d4572",
+  "name" : "Given The user opens the test automation practice web page",
+  "time" : {
+    "start" : 1597136008913,
+    "stop" : 1597136021265,
+    "duration" : 12352
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f276ed86220c6d8d",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1597136022236,
+    "stop" : 1597136022238,
+    "duration" : 2
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3246a2848e0e5de",
+  "name" : "When The user clicks the hide button",
+  "time" : {
+    "start" : 1597136022818,
+    "stop" : 1597136022978,
+    "duration" : 160
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2ef76babf675f9b6",
+  "name" : "Then The user checks if the display box is \"hidden\"",
+  "time" : {
+    "start" : 1597136022980,
+    "stop" : 1597136024013,
+    "duration" : 1033
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "ee459f492bdeedba",
+  "name" : "Hook",
+  "time" : {
+    "start" : 1597136024013,
+    "stop" : 1597136024014,
+    "duration" : 1
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1d865bd7291c30e9",
+  "name" : "Given The user opens the test automation practice web page",
+  "time" : {
+    "start" : 1597136008928,
+    "stop" : 1597136022318,
+    "duration" : 13390
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3ac59e1087a6ddc7",
+  "name" : "Then The user checks that the page title is \"Practice Page\"",
+  "time" : {
+    "start" : 1597136022319,
+    "stop" : 1597136022818,
+    "duration" : 499
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "c6b8e77eb9177d0f",
+  "name" : "When The user selects the \"option3\" option in the dropdown",
+  "time" : {
+    "start" : 1597136021969,
+    "stop" : 1597136022235,
+    "duration" : 266
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

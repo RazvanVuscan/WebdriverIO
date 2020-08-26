@@ -1,0 +1,66 @@
+{
+  "uid" : "53dd96ade36474b2",
+  "name" : "Hook",
+  "fullName" : "Third test: This is a third test.Hook",
+  "historyId" : "1cd63e8d12186f59565f7c6ed88afb1a",
+  "time" : {
+    "start" : 1597136024013,
+    "stop" : 1597136024014,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Third test: This is a third test"
+  }, {
+    "name" : "testClass",
+    "value" : "Third test: This is a third test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Hook"
+  }, {
+    "name" : "package",
+    "value" : "Third test: This is a third test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b045de6dc26305b5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1597136008902,
+        "stop" : 1597136008904,
+        "duration" : 2
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "53dd96ade36474b2.json",
+  "parameterValues" : [ "chrome" ]
+}

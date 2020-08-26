@@ -1,0 +1,58 @@
+{
+  "uid" : "1d865bd7291c30e9",
+  "name" : "Given The user opens the test automation practice web page",
+  "fullName" : "First test: This is a first test.Given The user opens the test automation practice web page",
+  "historyId" : "9f08d31f8d1add4ab0b93bbd1076511a",
+  "time" : {
+    "start" : 1597136008928,
+    "stop" : 1597136022318,
+    "duration" : 13390
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "First test: This is a first test"
+  }, {
+    "name" : "testClass",
+    "value" : "First test: This is a first test"
+  }, {
+    "name" : "testMethod",
+    "value" : "Given The user opens the test automation practice web page"
+  }, {
+    "name" : "package",
+    "value" : "First test: This is a first test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d865bd7291c30e9.json",
+  "parameterValues" : [ "chrome" ]
+}
