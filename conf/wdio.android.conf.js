@@ -16,9 +16,7 @@ exports.config = {
   // NPM script (see https://docs.npmjs.com/cli/run-script) then the current working
   // directory is where your package.json resides, so `wdio` will be called from there.
   //
-  specs: [
-    './features/*.feature'
-  ],
+  specs: ['./features/*.feature'],
   // Patterns to exclude.
   exclude: [
     // 'path/to/excluded/files'
@@ -45,28 +43,30 @@ exports.config = {
   // Sauce Labs platform configurator - a great tool to configure your capabilities:
   // https://docs.saucelabs.com/reference/platforms-configurator
   //
-  capabilities: [{
-    // The defaults you need to have in your config
-    appiumVersion: '1.18.0',
-    platformName: 'Android',
-    browserName: 'chrome',
-    maxInstances: 1,
-    // For W3C the appium capabilities need to have an extension prefix
-    // http://appium.io/docs/en/writing-running-appium/caps/
-    // This is `appium:` for all Appium Capabilities which can be found here
-    'appium:deviceName': 'Pixel_3_API_30',
-    'appium:platformVersion': '11',
-    'appium:orientation': 'PORTRAIT',
-    // `automationName` will be mandatory, see
-    // https://github.com/appium/appium/releases/tag/v1.13.0
-    'appium:automationName': 'UiAutomator2',
-    'appium:newCommandTimeout': 240,
-    'goog:chromeOptions': {
-      w3c: true,
-      // Add this option to prevent the annoying "Welcome"-message
-      args: ['--no-first-run'],
+  capabilities: [
+    {
+      // The defaults you need to have in your config
+      appiumVersion: '1.18.0',
+      platformName: 'Android',
+      browserName: 'chrome',
+      maxInstances: 1,
+      // For W3C the appium capabilities need to have an extension prefix
+      // http://appium.io/docs/en/writing-running-appium/caps/
+      // This is `appium:` for all Appium Capabilities which can be found here
+      'appium:deviceName': 'Pixel_3_API_30',
+      'appium:platformVersion': '11',
+      'appium:orientation': 'PORTRAIT',
+      // `automationName` will be mandatory, see
+      // https://github.com/appium/appium/releases/tag/v1.13.0
+      'appium:automationName': 'UiAutomator2',
+      'appium:newCommandTimeout': 240,
+      'goog:chromeOptions': {
+        w3c: true,
+        // Add this option to prevent the annoying "Welcome"-message
+        args: ['--no-first-run'],
+      },
     },
-  },],
+  ],
   //
   // ===================
   // Test Configurations
@@ -124,7 +124,7 @@ exports.config = {
           address: '127.0.0.1',
           commandTimeout: '7200',
           sessionOverride: true,
-          debugLogSpacing: true
+          debugLogSpacing: true,
         },
       },
     ],
@@ -147,12 +147,16 @@ exports.config = {
   // Test reporter for stdout.
   // The only one supported by default is 'dot'
   // see also: https://webdriver.io/docs/dot-reporter.html
-  reporters: [['allure', {
-    outputDir: 'allure-results',
-    disableWebdriverStepsReporting: true,
-    disableWebdriverScreenshotsReporting: false,
-  }]],
-
+  reporters: [
+    [
+      'allure',
+      {
+        outputDir: 'allure-results',
+        disableWebdriverStepsReporting: true,
+        disableWebdriverScreenshotsReporting: false,
+      },
+    ],
+  ],
 
   //
   // If you are using Cucumber you need to specify the location of your step definitions.
@@ -182,7 +186,7 @@ exports.config = {
     // <number> timeout for step definitions
     timeout: 60000,
     // <boolean> Enable this config to treat undefined definitions as warnings.
-    ignoreUndefinedDefinitions: false
+    ignoreUndefinedDefinitions: false,
   },
 
   //
@@ -253,11 +257,15 @@ exports.config = {
   /**
    * Runs after a Cucumber step
    */
-  afterStep: async function (test, context, {error, result, duration, passed, retries}) {
+  afterStep: async function (
+    test,
+    context,
+    { error, result, duration, passed, retries }
+  ) {
     if (error) {
       await browser.takeScreenshot();
     }
-  }
+  },
   /**
    * Runs after a Cucumber scenario
    */

@@ -1,9 +1,9 @@
-const { Given, When, Then } = require('cucumber')
-const navigate = require('../support/actions/navigate')
-const select = require('../support/actions/select')
-const click = require('../support/actions/click')
-const check = require('../support/checks/titles')
-const variableStorage = require('../helpers/variableStorage')
+const { Given, When, Then } = require('cucumber');
+const navigate = require('../support/actions/navigate');
+const select = require('../support/actions/select');
+const click = require('../support/actions/click');
+const check = require('../support/checks/titles');
+const variableStorage = require('../helpers/variableStorage');
 
 Given(/^The user opens the test automation practice web page$/, async () => {
   await navigate.toPage('homepage');
@@ -31,7 +31,7 @@ When(
     await autosuggest.setValue(text);
 
     const results = await $('#ui-id-1');
-    await results.waitForDisplayed({timeout: 2000});
+    await results.waitForDisplayed({ timeout: 2000 });
 
     const listOfElements = await results.$$('div[id*=ui-id-]');
 
@@ -47,19 +47,17 @@ When(
   }
 );
 
-
-When(
-  /^The user clicks the hide button$/,
-  async () => {
-    await click.button('#hide-textbox');
-  }
-);
+When(/^The user clicks the hide button$/, async () => {
+  await click.button('#hide-textbox');
+});
 
 Then(
   /^The user checks if the display box is "(hidden|not hidden)"$/,
   async (check) => {
     await browser.pause(1000);
     const displayBox = await $('#displayed-text');
-    check === 'hidden' ? await expect(displayBox).not.toBeDisplayed() : await expect(displayBox).toBeDisplayed();
+    check === 'hidden'
+      ? await expect(displayBox).not.toBeDisplayed()
+      : await expect(displayBox).toBeDisplayed();
   }
 );
