@@ -1,8 +1,6 @@
 import { Given, When, Then } from 'cucumber';
 import navigate from '../support/actions/navigate';
-('../support/actions/navigate');
 import select from '../support/actions/select';
-('../support/actions/select');
 import click from '../support/actions/click';
 import check from '../support/checks/titles';
 import variableStorage from '../helpers/variableStorage';

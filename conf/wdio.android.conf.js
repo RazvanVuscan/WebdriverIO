@@ -45,22 +45,17 @@ exports.config = {
   //
   capabilities: [
     {
-      // The defaults you need to have in your config
-      appiumVersion: '1.18.0',
       platformName: 'Android',
       browserName: 'chrome',
       maxInstances: 1,
-      // For W3C the appium capabilities need to have an extension prefix
-      // http://appium.io/docs/en/writing-running-appium/caps/
-      // This is `appium:` for all Appium Capabilities which can be found here
-      'appium:deviceName': 'Pixel_3_API_30',
-      'appium:platformVersion': '11',
-      'appium:orientation': 'PORTRAIT',
-      // `automationName` will be mandatory, see
-      // https://github.com/appium/appium/releases/tag/v1.13.0
-      'appium:automationName': 'UiAutomator2',
-      'appium:newCommandTimeout': 240,
-      'goog:chromeOptions': {
+      noReset: true,
+      fullReset: false,
+      deviceName: 'Pixel_3_API_30',
+      platformVersion: '11',
+      orientation: 'PORTRAIT',
+      automationName: 'UiAutomator2',
+      newCommandTimeout: 240,
+      chromeOptions: {
         w3c: true,
         // Add this option to prevent the annoying "Welcome"-message
         args: ['--no-first-run'],
