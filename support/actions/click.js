@@ -5,4 +5,4 @@ const click = {
   },
 };
 
-module.exports = click;
+export default click;

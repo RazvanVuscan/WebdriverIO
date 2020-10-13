@@ -6,4 +6,4 @@ const select = {
   },
 };
 
-module.exports = select;
+export default select;

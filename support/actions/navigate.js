@@ -5,4 +5,4 @@ const navigate = {
   },
 };
 
-module.exports = navigate;
+export default navigate;

@@ -1,9 +1,12 @@
-const { Given, When, Then } = require('cucumber');
-const navigate = require('../support/actions/navigate');
-const select = require('../support/actions/select');
-const click = require('../support/actions/click');
-const check = require('../support/checks/titles');
-const variableStorage = require('../helpers/variableStorage');
+import { Given, When, Then } from 'cucumber';
+import navigate from '../support/actions/navigate';
+('../support/actions/navigate');
+import select from '../support/actions/select';
+('../support/actions/select');
+import click from '../support/actions/click';
+import check from '../support/checks/titles';
+import variableStorage from '../helpers/variableStorage';
+import locators from '../helpers/locators';
 
 Given(/^The user opens the test automation practice web page$/, async () => {
   await navigate.toPage('homepage');
@@ -20,20 +23,21 @@ When(
   /^The user selects the "([^"]*)" option in the dropdown$/,
   async (option) => {
     variableStorage.text = option;
-    await select.dropdown('#dropdown-class-example', option);
+    await select.dropdown(locators.dropdown(), option);
+    await console.log('=====', variableStorage.text);
   }
 );
 
 When(
   /^The user searches for "([^"]*)" in the autosuggest field$/,
   async (text) => {
-    const autosuggest = await $('#autocomplete');
+    const autosuggest = await $(locators.autocomplete());
     await autosuggest.setValue(text);
 
-    const results = await $('#ui-id-1');
+    const results = await $(locators.autocompleteResults());
     await results.waitForDisplayed({ timeout: 2000 });
 
-    const listOfElements = await results.$$('div[id*=ui-id-]');
+    const listOfElements = await results.$$(locators.listOfResults());
 
     for (let i = 0; i < listOfElements.length; i++) {
       console.log('---------->', await listOfElements[i].getText());
@@ -48,14 +52,14 @@ When(
 );
 
 When(/^The user clicks the hide button$/, async () => {
-  await click.button('#hide-textbox');
+  await click.button(locators.hideTextboxButton());
 });
 
 Then(
   /^The user checks if the display box is "(hidden|not hidden)"$/,
   async (check) => {
     await browser.pause(1000);
-    const displayBox = await $('#displayed-text');
+    const displayBox = await $(locators.textBox());
     check === 'hidden'
       ? await expect(displayBox).not.toBeDisplayed()
       : await expect(displayBox).toBeDisplayed();

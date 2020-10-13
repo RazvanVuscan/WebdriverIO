@@ -4,4 +4,4 @@ const titles = {
   },
 };
 
-module.exports = titles;
+export default titles;

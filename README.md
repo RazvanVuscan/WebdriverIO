@@ -1,5 +1,10 @@
 # WebdriverIO sample test framework for Web and Android
 
+### Node
+
+This framework uses the 'import/export default' structure provided by babel, instead of the 'require/module.exports' structure.
+The setup was done using the documentation from https://webdriver.io/docs/babel.html.
+
 ### Setup
 
 To run on desktop, add the following system variable on your machine:

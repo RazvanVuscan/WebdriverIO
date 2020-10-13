@@ -2,4 +2,4 @@ const variableStorage = {
   text: '',
 };
 
-module.exports = variableStorage;
+export default variableStorage;
